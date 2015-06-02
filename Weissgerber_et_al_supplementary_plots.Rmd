@@ -8,7 +8,7 @@ Here I show how we can use R to reproduce the plots described in:
 
 I have taken the Excel spreadsheet files included with the PLOS Biology publication and written R code to read the sample data from the Excel files, and recreate the plots in the Excel files. Much of the text here is also adapted from the how-to notes in the Excel files. To run the code in this document you'll need to install, in addition to R, the following packages `readxl`, `tidyr`, `dplyr`, and `ggplot2`. This can be done with this line at the R prompt: `install.packages(c("readxl", "tidyr", "dplyr", "ggplot2"))`. The full details of packages and version used here can be found at the end of this document. You'll also need the Excel files that accompany the paper (inlcuded here and available at the URL above for the paper). 
 
-I used [RStudio](http://www.rstudio.com/) to write the code, and made extensive use of the `View()` function to identify the exact rows and columns of the spreadsheets that had the sample data. To run the code below, I recommend using RStudio, downloading the GitHub repository that contains the file and the Excel files, and opening the `new-data-presentation-paradigm-using-r.Rproj`, which will open this source file and set the working directory to the location of this file on your computer. 
+I used [RStudio](http://www.rstudio.com/) to write the code, and made extensive use of the `View()` function to identify the exact rows and columns of the spreadsheets that had the sample data. To run the code below, I recommend using RStudio, downloading the GitHub repository that contains this file and the Excel files [(zip file)](https://github.com/benmarwick/new-data-presentation-paradigm-using-r/archive/master.zip), and opening the `new-data-presentation-paradigm-using-r.Rproj` file, which will open this source file and set the working directory to the location of this file on your computer. 
 
 ### Why bother?
 
@@ -26,7 +26,7 @@ There are a few other demonstrations of R programming relevant to the Weissgerbe
 
 The main limitation of these is that they are not very close to the plots and data contained in the publication. The code below aims for a very close reproduction the supplementary materials for the Weissgerber et al paper. This high fidility replication makes it easier to compare the Excel methods to the R methods. Hopefully it will be useful if you're looking to get started in using R for plotting. 
 
-The location of this document is: 
+The source of this document is located at  https://github.com/benmarwick/new-data-presentation-paradigm-using-r and the rendered version can be viewed online at To see the plots click here: https://cdn.rawgit.com/benmarwick/new-data-presentation-paradigm-using-r/master/Weissgerber_et_al_supplementary_plots.html
 
 ## Interpreting the plots
 
