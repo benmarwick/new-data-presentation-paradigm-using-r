@@ -10,6 +10,10 @@ I have taken the Excel spreadsheet files included with the PLOS Biology publicat
 
 I used [RStudio](http://www.rstudio.com/) to write the code, and made extensive use of the `View()` function to identify the exact rows and columns of the spreadsheets that had the sample data. To run the code below, I recommend using RStudio, downloading the GitHub repository that contains this file and the Excel files [(zip file)](https://github.com/benmarwick/new-data-presentation-paradigm-using-r/archive/master.zip), and opening the `new-data-presentation-paradigm-using-r.Rproj` file, which will open this source file and set the working directory to the location of this file on your computer. 
 
+This repository is available as a zip file on zenodo.org and can cited as:
+
+Marwick, Ben. 2015. Using R for the examples in Weissgerber et al. 2015 "Beyond Bar and Line Graphs: Time for a New Data Presentation Paradigm". http://dx.doi.org/10.5281/zenodo.18613 
+
 ### Why bother?
 
 The Weissgerber et al. paper makes a good argument for shifting the default data visualisation from bar plots to dot plots that show more information about the data. They provide an Excel spreadsheet with a template for producing their preferred plots, and instructions for using GraphPad PRISM. But there are no instructions for making their dot plots using free and open source software, which limits the usefulness of the paper. R is a good free and open source choice to implement these plots because it produces high quality visualisations with relative ease. Making these plots in R also solves a few problems in the Excel spreadsheets provided by Weissgerber et al. For example:
