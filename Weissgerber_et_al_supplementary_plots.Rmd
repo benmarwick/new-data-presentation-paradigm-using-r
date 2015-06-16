@@ -30,7 +30,7 @@ There are a few other demonstrations of R programming relevant to the Weissgerbe
 
 The main limitation of these is that they are not very close to the plots and data contained in the publication. The code below aims for a very close reproduction the supplementary materials for the Weissgerber et al paper. This high fidelity replication makes it easier to compare the Excel methods to the R methods. Hopefully it will be useful if you're looking to get started in using R for plotting. 
 
-The source of this document is located at  https://github.com/benmarwick/new-data-presentation-paradigm-using-r and the rendered version can be viewed online at To see the plots click here: https://cdn.rawgit.com/benmarwick/new-data-presentation-paradigm-using-r/master/Weissgerber_et_al_supplementary_plots.html
+The source of this document is located at  https://github.com/benmarwick/new-data-presentation-paradigm-using-r To see the plots click here: https://rawgit.com/benmarwick/new-data-presentation-paradigm-using-r/master/Weissgerber_et_al_supplementary_plots.html
 
 ## Interpreting the plots
 
